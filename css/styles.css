@@ -12,14 +12,10 @@ body {
 	margin: 0;
 	position:relative;
 	max-width: 1100px;
-  margin-left: auto;
-  margin-right: auto;
+        margin-left: auto;
+        margin-right: auto;
 }
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  min-width: 320px;
-}
+
 ul, li {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 10pt;
@@ -120,17 +116,17 @@ nav {
   height: 400px;
   width: 100%;
   background-color: #ccc;
-	text-align: center;
+  text-align: center;
 }
 
 /* ====================== Restaurant Filtering ====================== */
 .filter-options {
   width: 100%;
-	height: auto;
+  height: auto;
   background-color: #3D3838;
   align-items: center;
-	padding: 15px 0;
-	display: flex;
+  padding: 15px 0;
+  display: flex;
   flex-wrap: wrap;
 }
 .filter-options h2 {
@@ -171,7 +167,7 @@ nav {
   text-align: center;
   display: flex;
   flex-direction: row;
-	flex-wrap: wrap;
+  flex-wrap: wrap;
   justify-content: center;
 }
 #restaurants-list li {
@@ -183,8 +179,8 @@ nav {
   padding: 0 0 25px;
   text-align: left;
   min-width: 270px;
-	max-width: 100%;
-	display: flex;
+  max-width: 100%;
+  display: flex;
   flex-direction: column;
 }
 
@@ -194,7 +190,7 @@ nav {
   margin: 0;
   max-width: 100%;
   min-width: 100%;
-	overflow: hidden;
+  overflow: hidden;
 }
 #restaurants-list .restaurant-text-area {
   padding: 0 25px;
@@ -242,18 +238,18 @@ nav {
 .inside #map-container {
   background: #C02020 none repeat scroll 0 0;
   height: 200px;
-	width: 100%;
-	margin: auto;
+  width: 100%;
+  margin: auto;
 }
 .restaurant-title {
-	width:50%;
-	text-align: center;
-	height: auto;
-	display: flex;
-	flex-wrap: wrap;
-	flex-flow: column;
-	justify-content: space-evenly;
-	align-items:center;
+ width:50%;
+ text-align: center;
+ height: auto;
+ display: flex;
+ flex-wrap: wrap;
+ flex-flow: column;
+ justify-content: space-evenly;
+ align-items:center;
 }
 .restaurant-info {
 width:50%;
@@ -273,16 +269,16 @@ justify-content: space-evenly;
   text-transform: uppercase;
 }
 #restaurant-img {
-	width: 100%;
-	height: auto;
-	margin:auto;
-  align-self: center;
+   width: 100%;
+   height: auto;
+   margin:auto;
+   align-self: center;
 }
 #restaurant-address {
   font-size: 18px;
   padding: 15px 20px;
-	font-weight: 900;
-	margin-left: auto;
+  font-weight: 900;
+  margin-left: auto;
   margin-right: auto;
   text-align:center;
 }
@@ -296,7 +292,7 @@ justify-content: space-evenly;
   padding: 2px 0;
   text-align: center;
   text-transform: uppercase;
-	width: 90%;
+  width: 90%;
 }
 #restaurant-container, #reviews-container {
   border-bottom: 1px solid #d9d9d9;
@@ -382,7 +378,7 @@ justify-content: space-evenly;
 
 @media screen and (min-width: 900px) {
 
-	.container, .inside {
+	 .inside {
 		width: 900px;
 		margin-left: auto;
 		margin-right: auto;
